@@ -61,7 +61,10 @@
 
         <div id="hero-banner">
             <h1 class="">Your Island Getaway Awaits</h1>\
-            <img src="/img/hero-banner_2400 x 1600.webp" srcset="/img/hero-banner_2400 x 1600.webp 2400w, /img/hero-banner_1600 x 1067.webp 1600w, /img/hero-banner_1200 x 800.webp 1200w, /img/hero-banner_960 x 640.webp 960w, /img/hero-banner_800 x 533.webp 800w, /img/hero-banner_685 x 457.webp 685w, /img/hero-banner_600 x 400.webp 600w" alt="A person surfing and riding a wave">
+            <img src="/img/hero-banner_2400 x 1600.webp" 
+            srcset="/img/hero-banner_2400 x 1600.webp 2400w, /img/hero-banner_1600 x 1067.webp 1600w, /img/hero-banner_1200 x 800.webp 1200w, 
+            /img/hero-banner_960 x 640.webp 960w, /img/hero-banner_800 x 533.webp 800w, /img/hero-banner_685 x 457.webp 685w, /img/hero-banner_600 x 400.webp 600w" 
+            alt="A person surfing and riding a wave">
             <div id="booking-bar">
                 <ul id="booking-tabs" class="nav nav-tabs nav-justified">
                     <li class="nav-item">
@@ -122,21 +125,37 @@
                     </div>   
                 </section>
             </div>
-            <div id="featured-trips">
-                <h1>Featured Trip Packages</h1>
-                <div class="trip-package">
-                    <img src="/img/3d-Tour.webp" alt="Photo of older couple on white sand beach">
-                    <h2>3-Day Tour</h2>
+            <section id="featured-trips">
+                <div id="trips-wrapper">
+                    <h1>Featured Trip Packages</h1>
+                    <div class="trip-package">
+                        <img src="/img/3d-Tour.webp" alt="Photo of older couple on white sand beach" loading="lazy">
+                        <h2>3-Day Tour</h2>
+                    </div>
+                    <div class="trip-package">
+                        <img src="/img/5d-Tour.webp" alt="Photo of man carrying woman on beach" loading="lazy">
+                        <h2>5-Day Tour</h2>
+                    </div>
+                    <div class="trip-package">
+                        <img src="/img/TIA-Tour.webp" alt="Photo of person in helicopter looking over an island" loading="lazy">
+                        <h2>Taniti Islander Adventure</h2>
+                    </div>
+                </div>    
+            </section>
+            <section id="about-island">
+                <div>
+                    <picture>
+                        <source srcset="/img/About-BG_2400.webp 2400w, /img/About-BG_1600.webp 1600w, /img/About-BG_1200.webp 1200w,
+                        /img/About-BG_960.webp 960w, /img/About-BG_800.webp 800w, /img/About-BG_685.webp 650w, /img/About-BG_600.webp 600w">
+                        <img src="/img/About-BG_2400.webp" alt="Background image of palm frond shadow" loading="lazy">
+                    </picture>
+                    <img src="/img/About-Inset_960.webp" alt="Photo of vibrant waterfall" loading="lazy" class="inset">
+                    <div id="about-content">
+                        <h1>About the Island</h1>
+                        <p>Taniti is a small, tropical island in the Pacific. While the island has an area of less than 500 square miles, the terrain is varied and includes both sandy and rocky beaches, a small but safe harbor, lush tropical rainforests, and a mountainous interior that includes a small, active volcano. Taniti has an indigenous population of about 20,000. Until a recent increase in tourism, most the Tanitian economy was dominated by fishing or agriculture.</p>
+                    </div>
                 </div>
-                <div class="trip-package">
-                    <img src="/img/5d-Tour.webp" alt="Photo of man carrying woman on beach">
-                    <h2>5-Day Tour</h2>
-                </div>
-                <div class="trip-package">
-                    <img src="/img/TIA-Tour.webp" alt="Photo of person in helicopter looking over an island">
-                    <h2>Taniti Islander Adventure</h2>
-                </div>
-            </div>
+            </section>
         </div>
     </div>
     
